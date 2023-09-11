@@ -30,6 +30,8 @@ class Main {
 
   Food coffee = new Food(0.95, 0, 38, 0);
 
+  Food chickenBurger = new Food(1.65, 7, 22, 1);
+
 	System.out.println("Enter number of burgers: ");
 	int burgers = input.nextInt();
 	System.out.println(burger.toString("burger"));
