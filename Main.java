@@ -32,6 +32,8 @@ class Main {
 
   Food chickenBurger = new Food(1.65, 7, 22, 1);
 
+  Food yogurt = new Food(0.69, 2, 0, 1);
+
 	System.out.println("Enter number of burgers: ");
 	int burgers = input.nextInt();
 	System.out.println(burger.toString("burger"));
